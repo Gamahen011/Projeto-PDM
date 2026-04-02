@@ -1,6 +1,5 @@
 import { Component } from "@angular/core";
 
-
 @Component({
   selector: 'app-hello-world',
   templateUrl: 'helloWorld.html',
@@ -9,5 +8,11 @@ import { Component } from "@angular/core";
 })
 export class HelloWorldComponent {
 
+nome: string = "Gama"
 
+helloWorld() {
+    if (this.nome == "Gama") {
+    this.nome = "Paes"}
+    else {this.nome = "Gama"}
+}
 }
