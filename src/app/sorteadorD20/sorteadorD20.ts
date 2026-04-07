@@ -9,10 +9,15 @@ import { Component } from "@angular/core";
 
 export class SorteadorD20Component {
 
-SorteadorD20(){
+  resultado: number = 0;
 
-    
+SorteadorD20(min: number, max: number){
+  max = Math.ceil(max)
+  min = Math.floor(min)
+  this.resultado = Math.floor(Math.random() * (max - min + 1)) + min;
+  
 }
 
+  
 
 }
