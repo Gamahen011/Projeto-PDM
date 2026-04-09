@@ -10,8 +10,12 @@
     
     <p>Clique no botão para rodar o D20.</p>
 
-    <button (click)="SorteadorD20(1,20)">Role um D20</button>
-
+    <button (click)="SorteadorD20(1,20)" id="d20">Role um D20</button>
+    <button (click)="SorteadorD20(1,12)" id="d12">Role um D12</button>
+    <button (click)="SorteadorD20(1,10)" id="d10">Role um D10</button>
+    <button (click)="SorteadorD20(1,8)" id="d8">Role um D8</button>
+    <button (click)="SorteadorD20(1,6)" id="d6">Role um D6</button>
+    <button (click)="SorteadorD20(1,4)" id="d4">Role um D4</button>
     <h1>Resultado:</h1>
 
     <div class="resultado_dado"><h2>{{resultado}}</h2></div>

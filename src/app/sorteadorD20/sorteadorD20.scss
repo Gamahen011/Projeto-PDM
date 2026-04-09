@@ -1,5 +1,7 @@
 body{
-  margin: 0.5rem;
+  background: linear-gradient(#c875ff, #77d3d7);
+  padding: 1vw;
+  color: white;
 }
 
 button{
@@ -12,12 +14,13 @@ button{
     font-weight: bold;
     border-radius: 200px;
     font-size: 20px;
+    margin-right: 10px;
 }
 
 .resultado_dado {
   margin-top: 0.5rem;
   margin-left: 1rem;
-  background: gray;  
+  background: lightgray;  
   width: 55px;
   height: 55px;
   border-radius: 8px;
@@ -32,3 +35,27 @@ h2{
   color: black;
   margin: 0
 }
+
+#d20{
+  background-color: #691060;
+}
+
+#d12{
+  background-color: #822978;
+}
+
+#d10{
+  background-color: #9b418f;
+}
+#d8{
+  background-color: #b35aa7;
+}
+
+#d6{
+  background-color: #cc72be;
+}
+
+#d4{
+  background-color: #f49cbb;
+}
+
