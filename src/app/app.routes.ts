@@ -10,4 +10,12 @@ export const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full',
   },
+  {
+    path: 'listar-sorteados',
+    loadComponent: () => import('./listar-sorteados/listar-sorteados.page').then( m => m.ListarSorteadosPage)
+  },
+  {
+    path: "l",
+    redirectTo: 'listar-sorteados',
+  }
 ];
